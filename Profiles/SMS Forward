@@ -1,0 +1,45 @@
+
+## 适用情景
+拥有两部手机、两个电话号码的同学。两部手机都安装了Tasker，并且两个Tasker上面都开启了本profile
+
+## 功能
+1. 将备机收到的短信转发给主机（转发前会通过简单关键字判断排除一部分营销信息）
+  例如收到
+2. 备机进入等待状态，此时可以用主机回复如下指令：
+  2-1 Re:好的知道了
+  用备机的号码向发件人回复“好的知道了”
+  2-2 Fw:13000007890
+  用备机的号码将这条短信转发给13000007890
+  2-3 $%T#!
+  回复其他任意内容会退出等待状态。如果你有其他利用短信指令激活的profile，本profile与它们不互斥。
+3. “等待状态”只是一种为了方便理解的说法。实际上并不是一种持续的状态。无论退出与否，都不会影响性能与耗电
+4. 对称的profile，主机和备机只是观念上的，不需要更改profile。~~但不能更换SIM卡~~
+
+## 配置思路
+思路如下。把其中的13000001234换成自己另一台手机的号码即可 ~~而不是本机号码~~
+
+```
+Profile: SMS转发
+	Priority: 6 Enforce: no
+	Event: Received Text [ Type:SMS Sender:* Content:* ]
+Enter: SMS转发
+	A1: If [ %SMSRF !~R 13000001234 & %SMSRB !~R (退订|回复?)(TD?|N|QX|BK) ]
+	A2: Send SMS [ Number:13000001234 Message:%SMSRB From: %SMSRF Store In Messaging App:Off ] 
+	A3: Variable Set [ Name:%SMSST To:%SMSRF Recurse Variables:Off Do Maths:Off Append:Off ] 
+	A4: Variable Set [ Name:%SMSSB To:%SMSRB Recurse Variables:Off Do Maths:Off Append:Off ] 
+	A5: Else If [ %SMSRF ~R 13000001234 ]
+	A6: If [ %SMSRB ~R ^(?i)re:\s*[\s\S]*$ ]
+	A7: Variable Set [ Name:%SMSSB To:%SMSRB Recurse Variables:Off Do Maths:Off Append:Off ] 
+	A8: Variable Search Replace [ Variable:%SMSSB Search:^re:\s* Ignore Case:On Multi-Line:Off One Match Only:Off Store Matches In: Replace Matches:On Replace With: ] 
+	A9: Else If [ %SMSRB ~R ^(?i)fw:\s*(1[3-9][0-9])\d{8}$ ]
+	A10: Variable Set [ Name:%SMSST To:%SMSRB Recurse Variables:Off Do Maths:Off Append:Off ] 
+	A11: Variable Search Replace [ Variable:%SMSST Search:^fw:\s* Ignore Case:On Multi-Line:Off One Match Only:Off Store Matches In: Replace Matches:On Replace With: ] 
+	A12: Else 
+	A13: Goto [ Type:Action Label Number:1 Label:JUMP ] 
+	A14: End If 
+	A15: Send SMS [ Number:%SMSST Message:%SMSSB Store In Messaging App:Off ] 
+	<JUMP>
+	A16: Variable Clear [ Name:%SMSST Pattern Matching:Off Local Variables Only:Off ] 
+	A17: Variable Clear [ Name:%SMSSB Pattern Matching:Off Local Variables Only:Off ] 
+	A18: End If 
+```
