@@ -14,9 +14,12 @@ After reading it, you can download the ```*.prf.xml``` or ```*.tsk.xml``` file i
 
 There may be some other additional files, for instance, screenshots. Discover them by yourself.
 
+
 ## Quick Navi
 
 [适合双号双机的离线短信转发](https://github.com/feeshy/tasker_profiles_share/blob/master/Offline_SMS_Forward/readme.md)
+
+*you can subscribe hashtag #Tasker on my [telegram channel](https://t.me/feeshy_updates) to get notified in the future*
 
 ## Useful Links
 
