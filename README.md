@@ -1,18 +1,12 @@
-# tasker_profiles_share
-
--- sharing my frequently used tasker profiles
-
 ## Brief Guide
 
-Make sure you are at the homepage of this repository.
-
-Each profile is located in a specific directory.
+Each profile / task is located in a specific directory.
 
 In a directory, there is always a ```readme.md``` for brief descriptions.
 
-After reading it, you can download the ```*.prf.xml``` or ```*.tsk.xml``` file in the same directory-- This is what you are going to import to your tasker.
+You can download the ```*.prf.xml``` or ```*.tsk.xml``` file in the same directory --This is what you are going to import to your tasker.
 
-There may be some other additional files, for instance, screenshots. Discover them by yourself.
+There might be some other additional files as well, for instance, screenshots. Discover them by yourself.
 
 
 ## Quick Navi
@@ -21,7 +15,7 @@ There may be some other additional files, for instance, screenshots. Discover th
 
 *you can subscribe hashtag #Tasker on my [telegram channel](https://t.me/feeshy_updates) to get notified in the future*
 
-## Useful Links
+## Additional Links
 
 ### Wiki & Guides
 
@@ -40,3 +34,5 @@ There may be some other additional files, for instance, screenshots. Discover th
 [AutoInput](https://play.google.com/store/apps/details?id=com.joaomgcd.autoinput)
 |
 [Secure Settings](https://play.google.com/store/apps/details?id=com.intangibleobject.securesettings.plugin)
+|
+...
