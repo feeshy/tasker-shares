@@ -43,9 +43,9 @@
   
 ### 参数解释
 
-[截图并没有汉化](https://github.com/feeshy/tasker_profiles_share/blob/master/Wechat_Alerts/readme.md#descriptions)
+[截图就不用汉化了吧](https://github.com/feeshy/tasker_profiles_share/blob/master/Wechat_Alerts/readme.md#descriptions)
 
-STEP 1 `5` 意味着正常响铃5次，这之后变成自定义响铃
+STEP 1 `5` 意味着正常响铃5次，这之后变成自定义响铃。可根据习惯增大或减小
 
 STEP 6 `5-1` 这里永远是 STEP 1 的次数减去1
 
@@ -65,13 +65,9 @@ STEP 8 `1` 自定义模式: 这段时间最多响几次，默认1次
 并不形成竞品关系。
 如果你对它们的响铃不满意，可以关掉它们的声音和震动。改用这个Tasker Profile监听它们，来替代它们响铃。
 
-## XML 下载
+## [XML 下载](https://github.com/feeshy/tasker_profiles_share/blob/master/Wechat_Alerts/readme.md#xml-download)
 
-https://raw.githubusercontent.com/feeshy/tasker_profiles_share/master/Wechat_Alert/wechat_alert.prf.xml
-
-https://raw.githubusercontent.com/feeshy/tasker_profiles_share/master/Wechat_Alert/wechat_alert_clear.prf.xml
-
-***首次导入后需要让微信在前台运行一次，来初始化变量。***
+***首次导入profile后需要让微信在前台运行一次，来初始化变量。***
 
 - - -
 # Advanced notification alerts for Wechat
@@ -112,9 +108,11 @@ Beyond these two cases, when your device receives notifications from wechat, Tas
   
 ### Descriptions
 
-There are 2 profiles one for main alerts, the other clearing alert-counts variable.
+There are 2 profiles, one for main alerts, the other clearing alert-counts variable.
 
 This is a screenshot of the main task.
+
+![Screenshot](2018-08-30-21-04-44.png)
 
 STEP 1 `5` means how many usual alerts you want before custom mode
 
@@ -123,8 +121,6 @@ STEP 6 `5-1` this number is linked with STEP 1
 STEP 7 `1` custom mode: how long you want the period of time is 
 
 STEP 8 `1` custom mode: how many alerts at most in this period of time
-
-![Screenshot](2018-08-30-21-04-44.png)
 
 ## XML Download
 
