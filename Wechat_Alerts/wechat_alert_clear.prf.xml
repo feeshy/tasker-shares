@@ -9,7 +9,7 @@
 		<App sr="con0" ve="2">
 			<cls0>com.tencent.mm.ui.LauncherUI</cls0>
 			<flags>2</flags>
-			<label0>微信</label0>
+			<label0>Wechat</label0>
 			<pkg0>com.tencent.mm</pkg0>
 		</App>
 	</Profile>
