@@ -43,15 +43,16 @@
   
 ### 参数解释
 
-[截图就不用汉化了吧](https://github.com/feeshy/tasker_profiles_share/blob/master/Wechat_Alerts/readme.md#descriptions)
+[任务截图只提供英文界面](https://github.com/feeshy/tasker_profiles_share/blob/master/Wechat_Alerts/readme.md#descriptions)。
+毕竟，机翻的中文界面截下来也没人看得懂。
 
-STEP 1 `5` 意味着正常响铃5次，这之后变成自定义响铃。可根据习惯增大或减小
+STEP 1 `5` 意味着正常响铃5次，之后变成自定义响铃。可根据习惯增大或减小
 
 STEP 6 `5-1` 这里永远是 STEP 1 的次数减去1
 
-STEP 7 `1` 自定义模式: 间隔多久，默认1分钟
+STEP 7 `1` 自定义模式: 等待多久之后重新允许微信响铃，默认1分钟。建议不要调的太大，可能出现难以预料的问题。
 
-STEP 8 `1` 自定义模式: 这段时间最多响几次，默认1次
+STEP 8 `1` 自定义模式: 这段时间最多可以响几次，默认1次。
 
 
 ## 与酷安流行App的关系
@@ -65,7 +66,7 @@ STEP 8 `1` 自定义模式: 这段时间最多响几次，默认1次
 并不形成竞品关系。
 如果你对它们的响铃不满意，可以关掉它们的声音和震动。改用这个Tasker Profile监听它们，来替代它们响铃。
 
-## [XML 下载](https://github.com/feeshy/tasker_profiles_share/blob/master/Wechat_Alerts/readme.md#xml-download)
+## [XML下载](https://github.com/feeshy/tasker_profiles_share/blob/master/Wechat_Alerts/readme.md#xml-download)
 
 ***首次导入profile后需要让微信在前台运行一次，来初始化变量。***
 
@@ -116,11 +117,11 @@ This is a screenshot of the main task.
 
 STEP 1 `5` means how many usual alerts you want before custom mode
 
-STEP 6 `5-1` this number is linked with STEP 1
+STEP 6 `5-1` this number is linked with STEP 1, and always 1 less than in STEP 1
 
-STEP 7 `1` custom mode: how long you want the period of time is 
+STEP 7 custom mode: '1' minutes means for how long you want to mute the alerts
 
-STEP 8 `1` custom mode: how many alerts at most in this period of time
+STEP 8 custom mode: '1' means how many alerts you want at most in this period
 
 ## XML Download
 
