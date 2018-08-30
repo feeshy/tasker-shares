@@ -9,6 +9,9 @@
 
 微信的通知已打开，微信的铃声和震动已关闭。如果使用了其他的通知增强插件，它们的铃声和震动也已关闭。
 
+*如果关闭铃声后微信的通知不再弹出，可以试试把这个[纯静音的铃声文件(7kb)](https://raw.githubusercontent.com/feeshy/tasker_profiles_share/master/Wechat_Alerts/silence.m4a)
+设定成微信的自定义铃声*
+
 ## 需求
 
 微信“勿扰模式”下能响铃的bug存在了三年，看起来直到世界末日都没有修复的意思。
@@ -78,6 +81,8 @@ STEP 8 `1` 自定义模式: 这段时间最多可以响几次，默认1次。
 `Android 5.0+`, `Tasker`, `Wechat`
 
 Wechat notification turned on and fully muted.
+
+*If you won't get heads-up notifications, set this [silence file](https://raw.githubusercontent.com/feeshy/tasker_profiles_share/master/Wechat_Alerts/silence.m4a) as custom ringtone in Wechat.*
 
 ## Demand
 
