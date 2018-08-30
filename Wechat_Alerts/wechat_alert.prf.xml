@@ -10,12 +10,9 @@
 		<Event sr="con0" ve="2">
 			<code>461</code>
 			<App sr="arg0">
-				<appClass>com.tencent.mm.ui.LauncherUI,
-com.tencent.mobileqq.activity.SplashActivity</appClass>
-				<appPkg>com.tencent.mm,
-com.tencent.tim</appPkg>
-				<label>微信,
-TIM</label>
+				<appClass>com.tencent.mm.ui.LauncherUI</appClass>
+				<appPkg>com.tencent.mm</appPkg>
+				<label>Wechat</label>
 			</App>
 			<Str sr="arg1" ve="3"/>
 			<Str sr="arg2" ve="3"/>
