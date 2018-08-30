@@ -125,8 +125,8 @@ STEP 8 custom mode: '1' means how many alerts you want at most in this period
 
 ## XML Download
 
-https://raw.githubusercontent.com/feeshy/tasker_profiles_share/master/Wechat_Alert/wechat_alert.prf.xml
+https://raw.githubusercontent.com/feeshy/tasker_profiles_share/master/Wechat_Alerts/wechat_alert.prf.xml
 
-https://raw.githubusercontent.com/feeshy/tasker_profiles_share/master/Wechat_Alert/wechat_alert_clear.prf.xml
+https://raw.githubusercontent.com/feeshy/tasker_profiles_share/master/Wechat_Alerts/wechat_alert_clear.prf.xml
 
 ***After importing, you need to enter Wechat to initialize the main profile.***
