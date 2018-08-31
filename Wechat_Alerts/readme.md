@@ -1,4 +1,4 @@
-[中文](https://github.com/feeshy/tasker_profiles_share/blob/master/Wechat_Alerts/readme.md#%E5%BE%AE%E4%BF%A1%E7%9A%84%E9%AB%98%E7%BA%A7%E9%80%9A%E7%9F%A5)
+[中文](https://github.com/feeshy/tasker_profiles_share/blob/master/Wechat_Alerts/readme.md#%E5%BE%AE%E4%BF%A1%E7%9A%84%E9%AB%98%E7%BA%A7%E5%93%8D%E9%93%83%E6%8E%A7%E5%88%B6)
 |
 [English](https://github.com/feeshy/tasker_profiles_share/blob/master/Wechat_Alerts/readme.md#advanced-notification-alerts-for-wechat)
 
