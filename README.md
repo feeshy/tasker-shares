@@ -11,9 +11,19 @@ There might be some other additional files as well, for instance, screenshots. D
 
 ## Quick Navi
 
-[适合双号双机的离线短信转发](https://github.com/feeshy/tasker_profiles_share/blob/master/Offline_SMS_Forward/readme.md)
-
 *you can subscribe hashtag #Tasker on my [telegram channel](https://t.me/feeshy_updates) to get notified in the future*
+- - -
+### English
+
+[Advanced notification alerts for Wechat
+](https://github.com/feeshy/tasker_profiles_share/blob/master/Wechat_Alerts/readme.md#advanced-notification-alerts-for-wechat)
+- - -
+### 中文
+
+[适合双号双机的离线短信转发](https://github.com/feeshy/tasker_profiles_share/blob/master/Offline_SMS_Forward/readme.md)
+|
+[微信的高级响铃控制
+](https://github.com/feeshy/tasker_profiles_share/blob/master/Wechat_Alerts/readme.md#%E5%BE%AE%E4%BF%A1%E7%9A%84%E9%AB%98%E7%BA%A7%E5%93%8D%E9%93%83%E6%8E%A7%E5%88%B6)
 
 ## Additional Links
 
