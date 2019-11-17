@@ -1,6 +1,6 @@
-[中文](https://github.com/feeshy/tasker_profiles_share/blob/master/Wechat_Alerts/readme.md#%E5%BE%AE%E4%BF%A1%E7%9A%84%E9%AB%98%E7%BA%A7%E5%93%8D%E9%93%83%E6%8E%A7%E5%88%B6)
+[中文](#%E5%BE%AE%E4%BF%A1%E7%9A%84%E9%AB%98%E7%BA%A7%E5%93%8D%E9%93%83%E6%8E%A7%E5%88%B6)
 |
-[English](https://github.com/feeshy/tasker_profiles_share/blob/master/Wechat_Alerts/readme.md#advanced-notification-alerts-for-wechat)
+[English](#advanced-notification-alerts-for-wechat)
 
 # 微信的高级响铃控制
 
@@ -48,7 +48,7 @@
   
 ### 参数解释
 
-[任务截图只提供英文界面](https://github.com/feeshy/tasker_profiles_share/blob/master/Wechat_Alerts/readme.md#descriptions)。
+[任务截图只提供英文界面](#descriptions)。
 毕竟，机翻的中文界面截下来也没有人看得懂。
 
 STEP 1 `5` 意味着正常响铃5次，之后变成自定义响铃。可根据使用习惯增大或减小
@@ -71,7 +71,7 @@ STEP 8 `1` 自定义模式: 这段时间最多可以响几次，默认1次。
 并不形成竞品关系。我自己就在同时使用。
 如果你也觉得通知增强App的响铃不够智能，那么你也可以关掉它们的声音和震动，改用这个Tasker Profile监听它们，来替代它们响铃。
 
-## [XML下载](https://github.com/feeshy/tasker_profiles_share/blob/master/Wechat_Alerts/readme.md#xml-download)
+## [XML下载](#xml-download)
 
 ***首次导入profile后需要让微信在前台运行一次，以初始化变量。***
 
