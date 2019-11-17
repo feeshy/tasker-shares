@@ -2,7 +2,7 @@
 
 ### 运行环境
 
-Android备机：```Tasker(电话、短信、后台权限)``` ```Pushbullet（开启自动复制链接和记事功能）```  ```科学上网```
+Android备机：```Tasker```**(电话、短信、后台权限)** ```Pushbullet```**（开启自动复制链接和记事功能）**  ```科学上网```
 
 另一台手机：```Pushbullet``` ```科学上网```
 
@@ -14,6 +14,16 @@ Android备机：```Tasker(电话、短信、后台权限)``` ```Pushbullet（开
 
 https://raw.githubusercontent.com/feeshy/tasker_profiles_share/master/Pushbullet_Intergrated/未接来电.prf.xml
 
+### 故障排除
+
+导入后如果只能以短信方式转发，请检查自己是否科学上网
+
+如两种方式都不转发请重新配置Pushbullet
+
+    %CNUM
+    未接来电
+
+<img src="未接来电_3.png" height=50% width=50%>
 
 # 短信转发
 
@@ -35,6 +45,17 @@ https://raw.githubusercontent.com/feeshy/tasker_profiles_share/master/Pushbullet
 
 https://raw.githubusercontent.com/feeshy/tasker_profiles_share/master/Pushbullet_Intergrated/SMS转发_回复.prf.xml
 
+### 故障排除
+
+如果只能以短信方式转发，请检查自己是否科学上网
+
+如两种方式都不转发请重新配置Pushbullet
+
+    %SMSRB
+    来自 %SMSRF
+
+<img src="SMS转发_6.png" height=50% width=50%>
+
 # 远程短信
 
 Pushbullet提供通过PC或者平板控制安卓手机发短信的功能，但你无法用一台手机控制另一台手机发送短信。这个profile意图补齐此需求。
@@ -48,3 +69,20 @@ Android备机将在发送成功后推送一条消息作为反馈
 ### prf.xml下载
 
 https://raw.githubusercontent.com/feeshy/tasker_profiles_share/master/Pushbullet_Intergrated/云短信.prf.xml
+
+### 故障排除
+
+导入后如果只能以短信方式转发，请检查自己是否科学上网
+
+如两种方式都不转发请重新配置Pushbullet
+
+    发送成功
+    信息：%TEXT
+    收件人：%MSGTO01
+
+<img src="云短信_6.png" height=50% width=50%>
+
+    发送失败
+    命令应以电话号码结尾
+
+<img src="云短信_10.png" height=50% width=50%>
