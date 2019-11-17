@@ -33,7 +33,7 @@ https://raw.githubusercontent.com/feeshy/tasker_profiles_share/master/Pushbullet
 
 👆导入后请将所有```13800100500```换成自己**另一台手机**的号码 ~~而**不是**安装Tasker的手机的号码~~
 
-https://raw.githubusercontent.com/feeshy/tasker_profiles_share/master/Pushbullet_Intergrated/SMS转发-回复.prf.xml
+https://raw.githubusercontent.com/feeshy/tasker_profiles_share/master/Pushbullet_Intergrated/SMS转发_回复.prf.xml
 
 # 云短信
 Pushbullet提供通过PC或者平板控制安卓手机发短信的功能，但你无法用一台手机控制另一台手机发送短信。这个profile意在补齐此需求。
