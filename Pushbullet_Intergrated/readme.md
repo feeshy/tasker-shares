@@ -34,7 +34,7 @@ https://raw.githubusercontent.com/feeshy/tasker_profiles_share/master/Pushbullet
 
 如两种方式都不转发请重新配置该Tasker任务的第3个动作
 
-<img src="未接来电_3.png" height=50% width=50%>
+<img src="未接来电_3.png" height=360px width=360px>
 
 # 短信转发
 
@@ -112,7 +112,7 @@ https://raw.githubusercontent.com/feeshy/tasker_profiles_share/master/Pushbullet
 
 如两种方式都不转发请重新配置该Tasker任务的第6个动作
 
-<img src="SMS转发_6.png" height=50% width=50%>
+<img src="SMS转发_6.png" height=360px width=360px>
 
 # 远程短信
 
@@ -153,8 +153,8 @@ https://raw.githubusercontent.com/feeshy/tasker_profiles_share/master/Pushbullet
 
 第6个动作
 
-<img src="云短信_6.png" height=50% width=50%>
+<img src="云短信_6.png" height=360px width=360px>
 
 第10个动作
 
-<img src="云短信_10.png" height=50% width=50%>
+<img src="云短信_10.png" height=360px width=360px>
