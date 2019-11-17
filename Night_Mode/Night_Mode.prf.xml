@@ -1,0 +1,47 @@
+<TaskerData sr="" dvi="1" tv="5.8.5">
+	<Profile sr="prof9" ve="2">
+		<cdate>1467903369461</cdate>
+		<cldm>43200</cldm>
+		<clp>true</clp>
+		<edate>1573999066940</edate>
+		<flags>9</flags>
+		<id>9</id>
+		<mid0>15</mid0>
+		<nme>Night Mode</nme>
+		<Time sr="con0">
+			<fh>23</fh>
+			<fm>0</fm>
+			<th>4</th>
+			<tm>30</tm>
+		</Time>
+	</Profile>
+	<Task sr="task15">
+		<cdate>1467903373117</cdate>
+		<edate>1573999066940</edate>
+		<id>15</id>
+		<nme>Night Mode</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>989</code>
+			<Int sr="arg0" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>312</code>
+			<Int sr="arg0" val="3"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>308</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>331</code>
+			<Int sr="arg0" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>333</code>
+			<Int sr="arg0" val="1"/>
+		</Action>
+	</Task>
+</TaskerData>
