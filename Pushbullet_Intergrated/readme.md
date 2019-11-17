@@ -58,7 +58,7 @@ https://raw.githubusercontent.com/feeshy/tasker_profiles_share/master/Pushbullet
 
 # 远程短信
 
-Pushbullet提供通过PC或者平板控制安卓手机发短信的功能，但你无法用一台手机控制另一台手机发送短信。这个profile意图补齐此需求。
+Pushbullet提供通过PC或者平板遥控安卓手机发短信的功能，但你无法用一台手机遥控另一台手机发送短信。这个profile意图补齐此需求。
 
 语法
 
@@ -76,11 +76,15 @@ https://raw.githubusercontent.com/feeshy/tasker_profiles_share/master/Pushbullet
 
 如两种方式都不转发请重新配置Pushbullet
 
+第6行配置
+
     发送成功
     信息：%TEXT
     收件人：%MSGTO01
 
 <img src="云短信_6.png" height=50% width=50%>
+
+第10行配置
 
     发送失败
     命令应以电话号码结尾
