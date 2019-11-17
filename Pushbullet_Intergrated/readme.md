@@ -31,7 +31,7 @@ https://raw.githubusercontent.com/feeshy/tasker_profiles_share/master/Pushbullet
 
 https://raw.githubusercontent.com/feeshy/tasker_profiles_share/master/Pushbullet_Intergrated/SMS转发.prf.xml
 
-👆导入后请将所有```13000001234```换成自己**另一台手机**的号码 ~~而**不是**安装Tasker的手机的号码~~
+👆导入后请将所有```13800100500```换成自己**另一台手机**的号码 ~~而**不是**安装Tasker的手机的号码~~
 
 https://raw.githubusercontent.com/feeshy/tasker_profiles_share/master/Pushbullet_Intergrated/SMS转发-回复.prf.xml
 
