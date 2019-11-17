@@ -8,9 +8,11 @@ You can download the ```*.prf.xml``` or ```*.tsk.xml``` file in the same directo
 
 There might be some other additional files as well, for instance, screenshots. Discover them by yourself.
 
+配置按目录存放，您可以按照每个目录中```readme.md```说明的思路自己创建，亦可直接下载```*.xml```文件导入。存放的其他类型的文件非必须。
+
 # Quick Navi
 
-## English
+## In English
 
 [Advanced notification alerts for Wechat
 ](https://github.com/feeshy/tasker_profiles_share/blob/master/Wechat_Alerts/readme.md#advanced-notification-alerts-for-wechat)
