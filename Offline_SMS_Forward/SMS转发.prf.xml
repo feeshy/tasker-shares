@@ -125,13 +125,13 @@
 				<Condition sr="c0" ve="3">
 					<lhs>%SMSRF</lhs>
 					<op>5</op>
-					<rhs>13000001234</rhs>
+					<rhs>13800100500</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>41</code>
-			<Str sr="arg0" ve="3">13000001234</Str>
+			<Str sr="arg0" ve="3">13800100500</Str>
 			<Str sr="arg1" ve="3">%SMSRB From: %SMSRF</Str>
 			<Int sr="arg2" val="0"/>
 		</Action>
@@ -158,7 +158,7 @@
 				<Condition sr="c0" ve="3">
 					<lhs>%SMSRF</lhs>
 					<op>4</op>
-					<rhs>13000001234</rhs>
+					<rhs>13800100500</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
