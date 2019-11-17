@@ -6,9 +6,9 @@ Android备机：```Tasker(电话、短信、后台权限)``` ```Pushbullet（开
 
 另一台手机：```Pushbullet``` ```科学上网```
 
-# 未接来电提醒
+# 未接来电转发
 
-能连通Pushbullet时通过Pushbullet，不能连通时通过短信将未接来电号码发送至另一台手机
+能连通Pushbullet时则通过Pushbullet，不能连通时则通过短信将未接来电号码发送至另一台手机
 
 ### prf.xml下载
 
@@ -23,7 +23,7 @@ https://raw.githubusercontent.com/feeshy/tasker_profiles_share/master/Pushbullet
 
     re: 回复的内容
 
-转发语法（仅支持短信命令，如需通过Pushbullet转发，请复制消息后使用[云短信](#云短信)命令）
+转发语法（仅支持短信命令，如需通过Pushbullet转发，请复制消息后使用[远程短信](#远程短信)命令）
 
     fw: 转发的号码
 
@@ -35,8 +35,9 @@ https://raw.githubusercontent.com/feeshy/tasker_profiles_share/master/Pushbullet
 
 https://raw.githubusercontent.com/feeshy/tasker_profiles_share/master/Pushbullet_Intergrated/SMS转发_回复.prf.xml
 
-# 云短信
-Pushbullet提供通过PC或者平板控制安卓手机发短信的功能，但你无法用一台手机控制另一台手机发送短信。这个profile意在补齐此需求。
+# 远程短信
+
+Pushbullet提供通过PC或者平板控制安卓手机发短信的功能，但你无法用一台手机控制另一台手机发送短信。这个profile意图补齐此需求。
 
 语法
 
