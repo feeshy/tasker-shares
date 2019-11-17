@@ -40,9 +40,9 @@
 	
 	用备机的号码向原发件人**回复**“多喝热水”。
 	
-		Fw: 13000007890
+		Fw:13800100500
 	
-	用备机的号码将刚才的短信**转发**给13000007890。
+	用备机的号码将刚才的短信**转发**13800100500。
 	
 		多喝热水，下班我就过去
 	
@@ -93,7 +93,7 @@ Tasker内置了两个可以直接使用的短信变量：短信正文 ```%SMSRB`
 
 -----
 
-完整描述如下。配置时需要把其中的13000001234换成自己**另一台手机**的号码 ~~而**不是**本机号码~~
+完整描述如下。配置时需要把其中的13800100500换成自己**另一台手机**的号码 ~~而**不是**本机号码~~
 
 ```
 Profile: SMS转发
@@ -104,12 +104,12 @@ Enter: SMS转发
 	A1: If [ %SMSRF !~R ^\+?(86)?(1[3-9][0-9])\d{8}$ & %SMSRB ~R (退订|回复?)(TD?|N|QX|BK) |+ %SMSRB ~R (薇|威|V|W)(信|X) |+ %SMSRB ~R 福利|贷|信用卡|澳门|在家就能 ]
 	A2: Stop [ With Error:Off Task: ] 
 	<FORWARD>
-	A3: Else If [ %SMSRF !~R 13000001234 ]
-	A4: Send SMS [ Number:13000001234 Message:%SMSRB From: %SMSRF Store In Messaging App:Off ] 
+	A3: Else If [ %SMSRF !~R 13800100500 ]
+	A4: Send SMS [ Number:13800100500 Message:%SMSRB From: %SMSRF Store In Messaging App:Off ] 
 	A5: Variable Set [ Name:%SMSST To:%SMSRF Recurse Variables:Off Do Maths:Off Append:Off ] 
 	A6: Variable Set [ Name:%SMSSB To:%SMSRB Recurse Variables:Off Do Maths:Off Append:Off ] 
 	<REMOTE COMMAND>
-	A7: Else If [ %SMSRF ~R 13000001234 ]
+	A7: Else If [ %SMSRF ~R 13800100500 ]
 	A8: If [ %SMSRB ~R ^(?i)re:\s*[\s\S]*$ ]
 	A9: Variable Set [ Name:%SMSSB To:%SMSRB Recurse Variables:Off Do Maths:Off Append:Off ] 
 	A10: Variable Search Replace [ Variable:%SMSSB Search:^re:\s* Ignore Case:On Multi-Line:Off One Match Only:Off Store Matches In: Replace Matches:On Replace With: ] 
