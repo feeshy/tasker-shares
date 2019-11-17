@@ -18,7 +18,7 @@ https://raw.githubusercontent.com/feeshy/tasker_profiles_share/master/Pushbullet
 
 导入后如果只能以短信方式转发，请检查自己是否科学上网
 
-如两种方式都不转发请重新配置Pushbullet
+如两种方式都不转发请重新配置该Tasker任务的第3个动作
 
     %CNUM
     未接来电
@@ -49,7 +49,7 @@ https://raw.githubusercontent.com/feeshy/tasker_profiles_share/master/Pushbullet
 
 如果只能以短信方式转发，请检查自己是否科学上网
 
-如两种方式都不转发请重新配置Pushbullet
+如两种方式都不转发请重新配置该Tasker任务的第6个动作
 
     %SMSRB
     来自 %SMSRF
@@ -74,9 +74,9 @@ https://raw.githubusercontent.com/feeshy/tasker_profiles_share/master/Pushbullet
 
 导入后如果只能以短信方式转发，请检查自己是否科学上网
 
-如两种方式都不转发请重新配置Pushbullet
+如两种方式都不转发请重新配置该Tasker任务
 
-第6行配置
+第6个动作
 
     发送成功
     信息：%TEXT
@@ -84,7 +84,7 @@ https://raw.githubusercontent.com/feeshy/tasker_profiles_share/master/Pushbullet
 
 <img src="云短信_6.png" height=50% width=50%>
 
-第10行配置
+第10个动作
 
     发送失败
     命令应以电话号码结尾
