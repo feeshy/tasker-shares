@@ -7,7 +7,7 @@
 ## 运行环境
 `Android 5.0 +` 的系统, 已安装 `Tasker`、 `微信` ，并授予必要权限
 
-微信的通知已打开，微信的铃声和震动已关闭。如果使用了其他的通知增强插件，它们的铃声和震动也已关闭。
+微信的通知已打开，微信自身的铃声和震动已关闭。如果使用了其他的通知增强插件，它们的铃声和震动也已关闭。
 
 *如果关闭铃声后微信的通知不再弹出，可以试试把这个[纯静音的铃声文件(7kb)](https://raw.githubusercontent.com/feeshy/tasker_profiles_share/master/Wechat_Alerts/silence.m4a)
 设定成微信的自定义铃声*
