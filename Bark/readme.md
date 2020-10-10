@@ -30,7 +30,7 @@ iOS：[Bark](https://apps.apple.com/cn/app/id1403753865) | Android：[Push Lite]
 
 ## 通知栏磁贴或者桌面图标
 
-[点我导入](https://taskernet.com/shares/?user=AS35m8kd%2B%2B8TCtuKD5vi%2BgxDuL5p9VAa8vrSP6viIGO6nBMQGv6ntB%2BfsCHAjiN7MZx1YA%3D%3D&id=Task%3ABark)或者按照下方的描述手动创建一个Tasker任务
+[导入任务](https://taskernet.com/shares/?user=AS35m8kd%2B%2B8TCtuKD5vi%2BgxDuL5p9VAa8vrSP6viIGO6nBMQGv6ntB%2BfsCHAjiN7MZx1YA%3D%3D&id=Task%3ABark)或者按照下方的描述手动创建一个Tasker任务
 
 ```
     Enter: Bark
@@ -47,9 +47,7 @@ iOS：[Bark](https://apps.apple.com/cn/app/id1403753865) | Android：[Push Lite]
 
 ## 文本菜单
 
-安装[AutoShare](https://play.google.com/store/apps/details?id=com.joaomgcd.autoshare)
-
-然后[点我导入](https://taskernet.com/shares/?user=AS35m8kd%2B%2B8TCtuKD5vi%2BgxDuL5p9VAa8vrSP6viIGO6nBMQGv6ntB%2BfsCHAjiN7MZx1YA%3D%3D&id=Profile%3APush+Text+to+Bark)，或者按照下方的描述手动创建一个Profile
+安装[AutoShare](https://play.google.com/store/apps/details?id=com.joaomgcd.autoshare)；然后[导入Profile](https://taskernet.com/shares/?user=AS35m8kd%2B%2B8TCtuKD5vi%2BgxDuL5p9VAa8vrSP6viIGO6nBMQGv6ntB%2BfsCHAjiN7MZx1YA%3D%3D&id=Profile%3APush+Text+to+Bark)，或者按照下方的描述手动创建一个Profile
 
 ```
     Profile: Push Text to Bark
@@ -73,9 +71,7 @@ iOS：[Bark](https://apps.apple.com/cn/app/id1403753865) | Android：[Push Lite]
 
 ## 分享菜单
 
-安装[AutoShare](https://play.google.com/store/apps/details?id=com.joaomgcd.autoshare)
-
-然后[点我导入](https://taskernet.com/shares/?user=AS35m8kd%2B%2B8TCtuKD5vi%2BgxDuL5p9VAa8vrSP6viIGO6nBMQGv6ntB%2BfsCHAjiN7MZx1YA%3D%3D&id=Profile%3AShare+to+Bark)，或者按照下方的描述手动创建一个Profile
+安装[AutoShare](https://play.google.com/store/apps/details?id=com.joaomgcd.autoshare)；然后[导入Profile](https://taskernet.com/shares/?user=AS35m8kd%2B%2B8TCtuKD5vi%2BgxDuL5p9VAa8vrSP6viIGO6nBMQGv6ntB%2BfsCHAjiN7MZx1YA%3D%3D&id=Profile%3AShare+to+Bark)，或者按照下方的描述手动创建一个Profile
 
 ```
     Profile: Share to Bark (21)
@@ -105,8 +101,6 @@ iOS：[Bark](https://apps.apple.com/cn/app/id1403753865) | Android：[Push Lite]
 
 # 转发验证码
 
-依赖：[Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm)
-
 这个Profile会把接收的验证码短信自动转发到Bark，并在iOS端自动复制验证码。如果转发失败则回退到以短信方式转发
 
 > [参与讨论或反馈](https://meta.appinn.net/t/19650)
@@ -128,3 +122,9 @@ iOS：[Bark](https://apps.apple.com/cn/app/id1403753865) | Android：[Push Lite]
     	A4: [X] Send SMS [ Number:xxxxxxxxxxx Message:%SMSRB Store In Messaging App:Off SIM Card: Wait For Result:Off ] If [ %http_response_code !~ 200 ]
     	A5: End If 
 ```
+
+更多转发短信Profiles：
+
+[短信](/Offline_SMS_Forward/readme.md)
+
+[Pushbullet+短信](/Pushbullet_Intergrated/readme.md#短信转发)
