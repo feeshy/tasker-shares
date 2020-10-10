@@ -10,7 +10,7 @@ iOS：[Bark](https://apps.apple.com/cn/app/id1403753865) | Android：[Push Lite]
 
 安装Bark后，在App的主界面，可以看到形如 ```https://api.day.app/xxxxxxxxxx/``` 的Push URL，记录下来
 
-<img src="http://wx3.sinaimg.cn/mw690/0060lm7Tly1g0bu1cv28lj30om0j6gng.jpg" width=365 />
+<img src="https://wx3.sinaimg.cn/mw690/0060lm7Tly1g0bu1cv28lj30om0j6gng.jpg" width=365 />
 
 ### 安装推送端
 
