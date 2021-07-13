@@ -2,7 +2,7 @@
 
 刷抖音、快手时自动将音量降低30%
 
-![Screenshot|360x676](https://raw.githubusercontent.com/feeshy/tasker_profiles_share/master/TikTok_Normalizer/Screenshot_20210713-102207.jpg)
+<img src="https://raw.githubusercontent.com/feeshy/tasker_profiles_share/master/TikTok_Normalizer/Screenshot_20210713-102207.jpg" width="33%">
 
 ## 在线安装
 
