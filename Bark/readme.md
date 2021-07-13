@@ -22,7 +22,7 @@ iOS：[Bark](https://apps.apple.com/cn/app/id1403753865) | Android：[Push Lite]
 
 # 推送链接或文本
 
-下面的任务可以从通知栏磁贴、文本上下文菜单、分享菜单等等入口运行，帮你把剪贴板中的或者是传入的内容推送到Bark
+下面的任务可以从通知栏磁贴、文本选择菜单、分享菜单等等入口运行，帮你把剪贴板中的或者是传入的内容推送到Bark
 
 > [参与讨论或反馈](https://meta.appinn.net/t/19189)
 
@@ -45,7 +45,7 @@ iOS：[Bark](https://apps.apple.com/cn/app/id1403753865) | Android：[Push Lite]
     	A9: Flash [ Text:Pushed to Bark Long:Off ]  If [ %http_response_code ~ 200 ]
 ```
 
-## 文本菜单
+## 文本选择菜单
 
 安装[AutoShare](https://play.google.com/store/apps/details?id=com.joaomgcd.autoshare)；然后[导入Profile](https://taskernet.com/shares/?user=AS35m8kd%2B%2B8TCtuKD5vi%2BgxDuL5p9VAa8vrSP6viIGO6nBMQGv6ntB%2BfsCHAjiN7MZx1YA%3D%3D&id=Profile%3APush+Text+to+Bark)，或者按照下方的描述手动创建一个Profile
 
@@ -125,6 +125,6 @@ iOS：[Bark](https://apps.apple.com/cn/app/id1403753865) | Android：[Push Lite]
 
 更多转发短信Profiles：
 
-[短信](/Offline_SMS_Forward/readme.md)
-
-[Pushbullet+短信](/Pushbullet_Intergrated/readme.md#短信转发)
+[用短信转发](/Offline_SMS_Forward/readme.md)
+|
+[用Pushbullet或短信转发](/Pushbullet_Intergrated/readme.md#短信转发)
