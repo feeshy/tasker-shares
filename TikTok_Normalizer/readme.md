@@ -1,6 +1,6 @@
 # 抖音快手音量标准化
 
-保护你的耳朵。打开抖音、快手时自动将媒体音量降低30%，退出时恢复
+保护你的耳朵和音量键。打开抖音、快手时自动将媒体音量降低30%，退出时恢复
 
 <img src="https://raw.githubusercontent.com/feeshy/tasker_profiles_share/master/TikTok_Normalizer/Screenshot_20210713-102207.jpg" width="33%">
 
