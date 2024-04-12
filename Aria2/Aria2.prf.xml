@@ -1,0 +1,219 @@
+<TaskerData sr="" dvi="1" tv="6.2.22">
+	<Profile sr="prof19" ve="2">
+		<cdate>1602296045649</cdate>
+		<edate>1712932694445</edate>
+		<flags>8</flags>
+		<id>19</id>
+		<mid0>81</mid0>
+		<nme>Aria2</nme>
+		<Share sr="Share">
+			<b>false</b>
+			<d>使用远程主机上的Aria2离线下载分享的链接
+&lt;a href="https://freshly.github.io/tech/aria2"&gt;中文指南&lt;/a&gt;</d>
+			<g>AutoShare</g>
+			<p>true</p>
+			<t></t>
+		</Share>
+		<Event sr="con0" ve="2">
+			<code>580953799</code>
+			<pri>0</pri>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>Command: Aria2
+Sender: all
+Subject: all
+Text: (http(s)?:\/\/)?[a-zA-Z0-9][-a-zA-Z0-9]{0,62}(\.[a-zA-Z0-9][-a-zA-Z0-9]{0,62})+(:[0-9]{1,5})?[-a-zA-Z0-9()@:%_\\\+\.~#?&amp;//=]* (regex)
+File: all</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<configcaseinsensitiveimage>false</configcaseinsensitiveimage>
+					<configcaseinsensitiveimage-type>java.lang.Boolean</configcaseinsensitiveimage-type>
+					<configcaseinsensitivesub>false</configcaseinsensitivesub>
+					<configcaseinsensitivesub-type>java.lang.Boolean</configcaseinsensitivesub-type>
+					<configcaseinsensitivetext>false</configcaseinsensitivetext>
+					<configcaseinsensitivetext-type>java.lang.Boolean</configcaseinsensitivetext-type>
+					<configcommand>Aria2</configcommand>
+					<configcommand-type>java.lang.String</configcommand-type>
+					<configexactimage>false</configexactimage>
+					<configexactimage-type>java.lang.Boolean</configexactimage-type>
+					<configexactsub>false</configexactsub>
+					<configexactsub-type>java.lang.Boolean</configexactsub-type>
+					<configexacttext>false</configexacttext>
+					<configexacttext-type>java.lang.Boolean</configexacttext-type>
+					<configimage>&lt;null&gt;</configimage>
+					<configimage-type>java.lang.String</configimage-type>
+					<configregeximage>false</configregeximage>
+					<configregeximage-type>java.lang.Boolean</configregeximage-type>
+					<configregexsub>false</configregexsub>
+					<configregexsub-type>java.lang.Boolean</configregexsub-type>
+					<configregextext>true</configregextext>
+					<configregextext-type>java.lang.Boolean</configregextext-type>
+					<configsubject>&lt;null&gt;</configsubject>
+					<configsubject-type>java.lang.String</configsubject-type>
+					<configtext>(http(s)?:\/\/)?[a-zA-Z0-9][-a-zA-Z0-9]{0,62}(\.[a-zA-Z0-9][-a-zA-Z0-9]{0,62})+(:[0-9]{1,5})?[-a-zA-Z0-9()@:%_\\\+\.~#?&amp;//=]*</configtext>
+					<configtext-type>java.lang.String</configtext-type>
+					<net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED>true</net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED>
+					<net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED-type>java.lang.Boolean</net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED-type>
+					<net.dinglisch.android.tasker.extras.REQUESTED_TIMEOUT>0</net.dinglisch.android.tasker.extras.REQUESTED_TIMEOUT>
+					<net.dinglisch.android.tasker.extras.REQUESTED_TIMEOUT-type>java.lang.Integer</net.dinglisch.android.tasker.extras.REQUESTED_TIMEOUT-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>configtext configcommand plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>f57d819e-d9e9-4da4-b0c9-b7cddef005c1</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autoshare.intent.IntentReceiveShareEvent</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autoshare</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autoshare.activity.ActivityConfigReceiveShareEvent</Str>
+			<Int sr="arg3" val="0"/>
+		</Event>
+	</Profile>
+	<Task sr="task81">
+		<cdate>1600308038980</cdate>
+		<edate>1712932680278</edate>
+		<id>81</id>
+		<nme>Aria2RPC</nme>
+		<pri>100</pri>
+		<Share sr="Share">
+			<b>false</b>
+			<d>将剪贴板内容推送至Bark的任务，可以添加到通知栏磁贴运行</d>
+			<p>false</p>
+			<t></t>
+		</Share>
+		<Action sr="act0" ve="7">
+			<code>598</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">%astext</Str>
+			<Str sr="arg1" ve="3">(http(s)?:\/\/)?[a-zA-Z0-9][-a-zA-Z0-9]{0,62}(\.[a-zA-Z0-9][-a-zA-Z0-9]{0,62})+(:[0-9]{1,5})?[-a-zA-Z0-9()@:%_\\\+\.~#?&amp;//=]*</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<Str sr="arg5" ve="3">%url</Str>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>339</code>
+			<se>false</se>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%http_cookies
+Cookies
+The cookies the server sent in the response in the Cookie:COOKIE_VALUE format. You can use this directly in the 'Headers' field of the HTTP Request action&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%http_data
+Data
+Data that the server responded from the HTTP request.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%http_file_output
+File Output
+Will always contain the file's full path even if you specified a directory as the File to save.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%http_response_code
+Response Code
+The HTTP Code the server responded&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%http_headers()
+Response Headers
+The HTTP Headers the server sent in the response. Each header is in the 'key:value' format&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%http_response_length
+Response Length
+The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg10" val="0"/>
+			<Int sr="arg11" val="0"/>
+			<Int sr="arg12" val="1"/>
+			<Str sr="arg2" ve="3">%rpcserver</Str>
+			<Str sr="arg3" ve="3">Content-Type:application/json</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3">{
+"jsonrpc": "2.0",
+"method": "aria2.addUri",
+"id":"",
+"params": ["token:%rpctoken",["%url1"]]
+}</Str>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="10"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%http_response_code</lhs>
+					<op>2</op>
+					<rhs>200</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Task Created at Remote Aria2</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Str sr="arg15" ve="3"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Failed</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Str sr="arg15" ve="3"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>38</code>
+		</Action>
+		<ProfileVariable sr="pv0">
+			<clearout>false</clearout>
+			<exportval>https://www.aabb.cc:6800/jsonrpc</exportval>
+			<immutable>false</immutable>
+			<pvci>true</pvci>
+			<pvd>远程Aria2 RPC地址</pvd>
+			<pvdn>RPC URL</pvdn>
+			<pvid>81</pvid>
+			<pvit>t</pvit>
+			<pvn>%rpcserver</pvn>
+			<pvt>t</pvt>
+			<pvv>https://www.aabb.cc:6800/jsonrpc</pvv>
+			<strout>true</strout>
+		</ProfileVariable>
+		<ProfileVariable sr="pv1">
+			<clearout>false</clearout>
+			<exportval>12345678</exportval>
+			<immutable>false</immutable>
+			<pvci>true</pvci>
+			<pvd>远程Aria2 RPC密码</pvd>
+			<pvdn>ROC Token</pvdn>
+			<pvid>81</pvid>
+			<pvit>t</pvit>
+			<pvn>%rpctoken</pvn>
+			<pvt>t</pvt>
+			<pvv>12345678</pvv>
+			<strout>true</strout>
+		</ProfileVariable>
+	</Task>
+</TaskerData>
