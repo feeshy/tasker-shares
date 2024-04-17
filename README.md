@@ -8,10 +8,10 @@ There might be some other additional files as well, for instance, screenshots. D
 
 配置按目录存放，您可以按照每个目录中```readme.md```说明的思路自己创建，亦可直接下载```*.xml```文件导入。存放的其他类型的文件非必须。
 
-## Quick Navi
+## 简介与
 
-- [作者的汇总介绍页](https://feeshy.github.io/lists/smartphonesmart#tasker)】
-- [作者的TaskerNet发布页](https://taskernet.com/?user=AS35m8kd%2B%2B8TCtuKD5vi%2BgxDuL5p9VAa8vrSP6viIGO6nBMQGv6ntB%2BfsCHAjiN7MZx1YA%3D%3D)】
+- [汇总介绍页](https://feeshy.github.io/smartphonesmart#tasker)
+- [TaskerNet发布页](https://taskernet.com/?user=AS35m8kd%2B%2B8TCtuKD5vi%2BgxDuL5p9VAa8vrSP6viIGO6nBMQGv6ntB%2BfsCHAjiN7MZx1YA%3D%3D)
 
 ## Additional Links
 
