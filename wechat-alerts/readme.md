@@ -13,7 +13,7 @@
 
 微信的通知已打开，微信自身的铃声和震动已关闭。如果使用了其他的通知增强插件，它们的铃声和震动也已关闭。
 
-*如果关闭铃声后微信的通知不再弹出，可以试试把这个[纯静音的铃声文件(7kb)](silence.m4a)设定成微信的自定义铃声*
+*如果关闭铃声后微信的通知不再弹出，可以试试把这个[纯静音的铃声文件(7kB)](silence.m4a)设定成微信的自定义铃声*
 
 ## 需求
 
@@ -66,9 +66,9 @@ STEP 8 `1` 自定义模式: 这段时间最多可以响几次，默认1次。
 
 # Advanced notification alerts for Wechat
 
-***After importing, you need to enter Wechat to initialize the main profile.***
-
 [中文](#%E5%BE%AE%E4%BF%A1%E7%9A%84%E9%AB%98%E7%BA%A7%E5%93%8D%E9%93%83%E6%8E%A7%E5%88%B6) | English
+
+***After importing, you need to enter Wechat to initialize the main profile.***
 
 ## Requirement
 
@@ -76,7 +76,7 @@ STEP 8 `1` 自定义模式: 这段时间最多可以响几次，默认1次。
 
 Wechat notification turned on and fully muted.
 
-*If you won't get heads-up notifications, set this [silence file (4kb)](silence.m4a) as custom ringtone in Wechat.*
+*If you won't get heads-up notifications, set this [silence file (7kB)](silence.m4a) as custom ringtone in Wechat.*
 
 ## Demand
 

@@ -131,4 +131,4 @@ Enter: Push to Bark
 
 更多转发短信Profiles：
 
-[用短信转发](/offline-sms-forward/) | [用Pushbullet或短信转发](/pushbullet/#短信转发)
+[用短信转发](../offline-sms-forward/) | [用Pushbullet或短信转发](../pushbullet/#短信转发)
