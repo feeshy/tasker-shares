@@ -4,7 +4,7 @@
 
 ## 完整配置过程
 
-https://feeshy.github.io/tech/aria2
+[Aria2远程下载折腾记录](https://feeshy.github.io/tech/aria2)
 
 ## Tasker配置
 
