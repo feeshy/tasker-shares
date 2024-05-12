@@ -1,10 +1,12 @@
-> [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm)是一个售价$3.49的Android自动化工具。提供丰富的接口和图形化的交互方式，无需学习代码即可编程解决问题。还可接入丰富的第三方插件进行跨应用交互。这个repository分享一些我个人常用的Tasker配置，希望这些自动化操作能使你的Android手机更加智能
+> [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm)是一个售价$3.49的Android自动化工具。提供丰富的接口和图形化的交互方式，无需学习代码即可编程解决问题。还可接入丰富的第三方插件进行跨应用交互。这个repository分享一些我个人常用的Tasker配置，希望这些自动化操作能使你的Android手机[^android]更加智能
+
+[^android]: 如果您是iPhone用户，也可以关注一下[feeshy的快捷指令配置分享](https://feeshy.github.io/shortcuts)
 
 - 发布地址
 	- [Github](https://feeshy.github.io/tasker-shares/)[^github]
 	- [TaskerNet](https://taskernet.com/?user=AS35m8kd%2B%2B8TCtuKD5vi%2BgxDuL5p9VAa8vrSP6viIGO6nBMQGv6ntB%2BfsCHAjiN7MZx1YA%3D%3D)
 
-[^github]: [github repo](https://github.com/feeshy/tasker-shares) 配置按目录存放，您可以按照每个目录中```readme.md```说明的思路自己创建，亦可直接下载```*.xml```文件导入。存放的其他类型的文件非必须。
+[^github]: 配置文件在[github repo](https://github.com/feeshy/tasker-shares)中按目录存放，您可以按照每个目录中```readme.md```说明的思路自己创建，亦可直接下载```*.xml```文件导入。存放的其他类型的文件非必须。
 
 ## 目录
 

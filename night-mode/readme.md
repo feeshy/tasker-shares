@@ -1,6 +1,5 @@
-- import from github
-	- https://github.com/feeshy/tasker-shares/raw/master/night-mode/day-mode.prf.xml
-	- https://github.com/feeshy/tasker-shares/raw/master/night-mode/night-mode.prf.xml
+[^night]: import from [github](https://github.com/feeshy/tasker-shares/raw/master/night-mode/night-mode.prf.xml)
+[^day]: import from [github](https://github.com/feeshy/tasker-shares/raw/master/night-mode/day-mode.prf.xml)
 
 # Day/Night Mode
 
@@ -9,6 +8,8 @@ Night Mode, Do Not Disturb, System Volume, Auto-Sync, Airplane Mode (root requir
 定时切换夜间模式、免打扰模式、系统音量、同步、飞行模式（其中飞行模式需要root权限）
 
 ## Description
+
+导入profile[^night]，或者按照以下描述手动创建
 
 ```
 Profile: Night Mode
@@ -21,6 +22,8 @@ Enter: Night Mode
 	A4: Auto-Sync [ Set:Off ] 
 	A5: Airplane Mode [ Set:On ] 
 ```
+
+导入profile[^day]，或者按照以下描述手动创建
 
 ```
 Profile: Day Mode

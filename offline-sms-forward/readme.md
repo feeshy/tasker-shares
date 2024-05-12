@@ -1,6 +1,4 @@
-- import from github
-	- https://github.com/feeshy/tasker-shares/raw/master/offline-sms-forward/SMS转发.prf.xml
-
+[^1]: import from [github](https://github.com/feeshy/tasker-shares/raw/master/offline-sms-forward/SMS转发.prf.xml)
 
 # 适合双号双机的离线短信转发
 
@@ -22,8 +20,7 @@
 
 ## 前提条件
 
-1. Android备机：安装了 [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm) ，已授予必要权限，并启用了本profile。
-
+1. Android备机：安装了 [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm) ，已授予必要权限，并启用了本profile[^1]。
 2. 主机可以正常收发短信。除此之外没有其他要求。
 
 ## 功能说明

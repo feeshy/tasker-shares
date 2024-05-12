@@ -1,8 +1,7 @@
-- import from taskernet
-	- https://taskernet.com/shares/?user=AS35m8kd%2B%2B8TCtuKD5vi%2BgxDuL5p9VAa8vrSP6viIGO6nBMQGv6ntB%2BfsCHAjiN7MZx1YA%3D%3D&id=Task%3ABark
-	- https://taskernet.com/shares/?user=AS35m8kd%2B%2B8TCtuKD5vi%2BgxDuL5p9VAa8vrSP6viIGO6nBMQGv6ntB%2BfsCHAjiN7MZx1YA%3D%3D&id=Profile%3APush+Text+to+Bark
-	- https://taskernet.com/shares/?user=AS35m8kd%2B%2B8TCtuKD5vi%2BgxDuL5p9VAa8vrSP6viIGO6nBMQGv6ntB%2BfsCHAjiN7MZx1YA%3D%3D&id=Profile%3AShare+to+Bark
-	- https://taskernet.com/shares/?user=AS35m8kd%2B%2B8TCtuKD5vi%2BgxDuL5p9VAa8vrSP6viIGO6nBMQGv6ntB%2BfsCHAjiN7MZx1YA%3D%3D&id=Profile%3A%E9%AA%8C%E8%AF%81%E7%A0%81%E8%BD%AC%E5%8F%91
+[^1]: import from [taskernet](https://taskernet.com/shares/?user=AS35m8kd%2B%2B8TCtuKD5vi%2BgxDuL5p9VAa8vrSP6viIGO6nBMQGv6ntB%2BfsCHAjiN7MZx1YA%3D%3D&id=Task%3ABark)
+[^2]: import from [taskernet](https://taskernet.com/shares/?user=AS35m8kd%2B%2B8TCtuKD5vi%2BgxDuL5p9VAa8vrSP6viIGO6nBMQGv6ntB%2BfsCHAjiN7MZx1YA%3D%3D&id=Profile%3APush+Text+to+Bark)
+[^3]: import from [taskernet](https://taskernet.com/shares/?user=AS35m8kd%2B%2B8TCtuKD5vi%2BgxDuL5p9VAa8vrSP6viIGO6nBMQGv6ntB%2BfsCHAjiN7MZx1YA%3D%3D&id=Profile%3AShare+to+Bark)
+[^4]: import from [taskernet](https://taskernet.com/shares/?user=AS35m8kd%2B%2B8TCtuKD5vi%2BgxDuL5p9VAa8vrSP6viIGO6nBMQGv6ntB%2BfsCHAjiN7MZx1YA%3D%3D&id=Profile%3A%E9%AA%8C%E8%AF%81%E7%A0%81%E8%BD%AC%E5%8F%91)
 
 [Bark](https://github.com/Finb/Bark)是一个简约好用的，尤以iOS端无需进入App即可复制到剪贴板为特点的推送App。
 
@@ -36,7 +35,8 @@ iOS：[Bark](https://apps.apple.com/cn/app/id1403753865) | Android：[Push Lite]
 
 ### 通知栏磁贴或者桌面图标
 
-[导入任务](https://taskernet.com/shares/?user=AS35m8kd%2B%2B8TCtuKD5vi%2BgxDuL5p9VAa8vrSP6viIGO6nBMQGv6ntB%2BfsCHAjiN7MZx1YA%3D%3D&id=Task%3ABark)或者按照下方的描述手动创建一个Tasker任务
+导入任务[^1]或者按照下方的描述手动创建一个Tasker任务
+
 
 ```
 Enter: Bark
@@ -53,7 +53,7 @@ Enter: Bark
 
 ### 文本选择菜单
 
-安装[AutoShare](https://play.google.com/store/apps/details?id=com.joaomgcd.autoshare)；然后[导入Profile](https://taskernet.com/shares/?user=AS35m8kd%2B%2B8TCtuKD5vi%2BgxDuL5p9VAa8vrSP6viIGO6nBMQGv6ntB%2BfsCHAjiN7MZx1YA%3D%3D&id=Profile%3APush+Text+to+Bark)，或者按照下方的描述手动创建一个Profile
+安装[AutoShare](https://play.google.com/store/apps/details?id=com.joaomgcd.autoshare)；然后导入Profile[^2]，或者按照下方的描述手动创建一个Profile
 
 ```
 Profile: Push Text to Bark
@@ -77,7 +77,7 @@ Enter: Push to Bark
 
 ### 分享菜单
 
-安装[AutoShare](https://play.google.com/store/apps/details?id=com.joaomgcd.autoshare)；然后[导入Profile](https://taskernet.com/shares/?user=AS35m8kd%2B%2B8TCtuKD5vi%2BgxDuL5p9VAa8vrSP6viIGO6nBMQGv6ntB%2BfsCHAjiN7MZx1YA%3D%3D&id=Profile%3AShare+to+Bark)，或者按照下方的描述手动创建一个Profile
+安装[AutoShare](https://play.google.com/store/apps/details?id=com.joaomgcd.autoshare)；然后导入Profile[^3]，或者按照下方的描述手动创建一个Profile
 
 ```
     Profile: Share to Bark (21)
@@ -111,7 +111,7 @@ Enter: Push to Bark
 
 > [参与讨论或反馈](https://meta.appinn.net/t/19650)
 
-[点我导入](https://taskernet.com/shares/?user=AS35m8kd%2B%2B8TCtuKD5vi%2BgxDuL5p9VAa8vrSP6viIGO6nBMQGv6ntB%2BfsCHAjiN7MZx1YA%3D%3D&id=Profile%3A%E9%AA%8C%E8%AF%81%E7%A0%81%E8%BD%AC%E5%8F%91)，或者按下面的描述手动创建Profile
+导入Profile[^4]，或者按下面的描述手动创建Profile
 
 导入完成后记得配置Bark的Push URL和接收转发的手机号码
 

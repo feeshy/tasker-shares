@@ -1,7 +1,6 @@
-- import from github
-	- https://github.com/feeshy/tasker-shares/raw/master/pushbullet/未接来电.prf.xml
-	- https://github.com/feeshy/tasker-shares/raw/master/pushbullet/SMS转发.prf.xml
-	- https://github.com/feeshy/tasker-shares/raw/master/pushbullet/云短信.prf.xml
+[^1]: import from [github](https://github.com/feeshy/tasker-shares/raw/master/pushbullet/未接来电.prf.xml)
+[^2]: import from [github](https://github.com/feeshy/tasker-shares/raw/master/pushbullet/SMS转发.prf.xml)
+[^3]: import from [github](https://github.com/feeshy/tasker-shares/raw/master/pushbullet/云短信.prf.xml)
 
 三个Pushbullet与Tasker整合的自动化配置
 
@@ -14,7 +13,7 @@
 
 能连通Pushbullet时则通过Pushbullet，不能连通时则通过短信将未接来电号码发送至另一台手机
 
-👇无论自己配置还是导入xml，请将所有```13800100500```换成自己**另一台手机**的号码 ~~注意**不是**安装Tasker的手机的号码~~
+👇无论自己配置还是导入xml[^1]，请将所有```13800100500```换成自己**另一台手机**的号码 ~~注意**不是**安装Tasker的手机的号码~~
 
 ```
 Profile: 未接来电
@@ -46,8 +45,7 @@ Enter: 未接来电
 
     fw: 转发的号码
 
-👇无论自己配置还是导入xml，请将所有```13800100500```换成自己**另一台手机**的号码 ~~注意**不是**安装Tasker的手机的号码~~
-
+👇无论自己配置还是导入xml[^2]，请将所有```13800100500```换成自己**另一台手机**的号码 ~~注意**不是**安装Tasker的手机的号码~~
 
 ```
 Profile: SMS转发
@@ -132,7 +130,7 @@ Enter: 云短信
 	A11: End If 
 ```
 
-导入后如果只能以短信方式转发，请检查自己是否科学上网
+导入[^3]后如果只能以短信方式转发，请检查自己是否科学上网
 
 如两种方式都不转发请重新配置该Tasker任务
 

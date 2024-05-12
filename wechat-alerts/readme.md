@@ -1,6 +1,5 @@
-- import from github
-	- https://github.com/feeshy/tasker-shares/raw/master/wechat-alert.prf.xml
-	- https://github.com/feeshy/tasker-shares/raw/master/wechat-alert-clear.prf.xml
+[^alert]: import from [github](https://github.com/feeshy/tasker-shares/raw/master/wechat-alert.prf.xml)
+[^clear]: import from [github](https://github.com/feeshy/tasker-shares/raw/master/wechat-alert-clear.prf.xml)
 
 # 微信的高级响铃控制
 
@@ -26,7 +25,7 @@
 
 思路是把微信的通知和响铃一分为二，通知仍由微信自己完成（也可以交给一些增强性的插件），响铃则交由Tasker来完成。
 
-成品profile顺便赋予微信类似Telegram自定义响铃频率的特性。美中不足的是，按好友/按群的自定义响铃实现起来有些麻烦，目前只做了对微信全局生效的版本。
+成品profile[^alert][^clear]顺便赋予微信类似Telegram自定义响铃频率的特性。美中不足的是，按好友/按群的自定义响铃实现起来有些麻烦，目前只做了对微信全局生效的版本。
 
 ## 配置说明
 
@@ -85,7 +84,7 @@ Wechat for Android has not supported 'Do Not Disturb' mode for 3 years. Sometime
 
 My solution here is to fully mute the notification of Wechat, and let Tasker make sounds/vibs for it.
 
-And inspired from Telegram, I add some custom options for this profile, which might be useful for group chats.
+And inspired from Telegram, I add some custom options for this profile[^alert][^clear], which might be useful for group chats.
 
 ## Instructions
 
