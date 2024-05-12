@@ -1,6 +1,96 @@
-title: tasker shares
-description: 分享个人Tasker配置，希望这些自动化操作使你的Android手机更加智能
-show_downloads: true
-remote_theme: pages-themes/slate@v0.2.0
+# site info
+
+lang: zh-Hans # default language tag of the site. 
+locale: zh_CN # og:locale of the format language_TERRITORY.
+author: feeshy # name of site's author
+title: feeshy的Tasker配置 # name of the site
+description: > # description of the site (multiple lines allowed)
+  这些Tasker自动化操作使你的Android手机更加智能
+url: https://feeshy.github.io # the base hostname & protocol for your site
+baseurl: "/tasker-shares" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
+webmaster_verifications: # verify ownership with several search services
+  google: 13TdFZIpyncmP_FVn1REpOcCIgM5Tu9PwO6qTAcEFZo
+#   bing: 1234
+#   alexa: 1234
+#   yandex: 1234
+#   baidu: 1234
+#   facebook: 1234
+
+# favicon & app icon
+
+# favicon:
+#   ico: "/favicon.ico" # legacy 'favicon.ico' at the root folder of your site, it is highly recommended not changing this name
+#   svg: "/favicon.svg" # name+extension of modern vector favicon
+#   ios: "/maskable-180x180.png" # icon for Safari
+# ms_tile_color: "#403f5f" # hex background for windows 8.1~10 tile
+# webmanifest: "/site.webmanifest" # icon config file path for Chrome
+
+# pwa
+
+# pwa:
+#   # enabled: false # set false to temporarily disable this plugin
+#   sw_src_filepath: service-worker.js # Optional
+#   sw_dest_filename: service-worker.js # Optional
+#   dest_js_directory: assets/js # Required
+#   precache_recent_posts_num: 0 # Optional
+#   precache_glob_directory: / # Optional
+#   precache_glob_patterns: # Optional
+#     - "assets/background/*.{png,svg,gif}"
+#     - "assets/css/*.{css}"
+#     - "assets/js/*.{js}"
+#     - "assets/OpenFont/**/*.{eot,ttf,woff,woff2}"
+#   precache_glob_ignores: # Optional
+#     - index.html
+
+# theme config
+
+remote_theme: feeshy/less-style-please
+show_logo: false # show the svg favicon in home page and archive page
+show_description: false # show blog description in home page
+sort_by_modified_date: false # sort posts by modified date rather than published date. Attention: You will have to set last_modified_date for every post
+# background_image: # path to background images for light and dark mode
+#   light: ""
+#   dark: ""
+# nav:
+#   back_home: "home" # customize text for homepage link
+#   go_to_top: "🔝" # customize text for go to top button
+date_format: "%Y-%m-%d" # customize how date is formatted at https://strftime.net/
+copyright: "by" # available values: "all-rights-reserved", "by-nc-nd", "by-nd", "by-nc-sa", "by-nc", "by-sa", "by", "public-domain". choose here https://chooser-beta.creativecommons.org/
+# goat_counter: "yoursitename" # put your GoatCounter name if you want to use GoatCounter analytics
+
+# defaults
+
+permalink: /:categories/:title
+defaults:
+  -
+    scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+
+# build settings
+
+markdown: redcarpet
+redcarpet:
+  extensions: ["tables", "autolink", "strikethrough", "highlight", "footnotes", "with_toc_data"]
+toc:
+  min_level: 2 # value: 1-6
+  max_level: 3 # value: 1-6
+sass:
+  sass_dir: _sass
+  style: compressed
+# feed:
+#   posts_limit: 10 # max number of posts on feed
+
+# plugins
+
 plugins:
-- jekyll-remote-theme
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-toc
+  - jekyll-target-blank
+  - jekyll-sitemap
+  # - jekyll-feed
+  # - jekyll-pwa-workbox
+  # - jekyll-redirect-from
