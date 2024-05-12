@@ -1,3 +1,7 @@
+- import from github
+	- https://github.com/feeshy/tasker-shares/raw/master/offline-sms-forward/SMS转发.prf.xml
+
+
 # 适合双号双机的离线短信转发
 
 ```#短信转发``` ```#Tasker``` ```#双号双机``` ```#离线```
@@ -125,10 +129,3 @@ Enter: SMS转发
 	A19: Variable Clear [ Name:%SMSSB Pattern Matching:Off Local Variables Only:Off ] 
 	A20: End If 
 ```
-
-
-
-## XML文件下载
-
-https://raw.githubusercontent.com/feeshy/tasker_profiles_share/master/Offline_SMS_Forward/SMS转发.prf.xml
-
