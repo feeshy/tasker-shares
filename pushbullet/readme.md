@@ -1,6 +1,6 @@
-[^1]: import from [github](https://github.com/feeshy/tasker-shares/raw/master/pushbullet/未接来电.prf.xml)
-[^2]: import from [github](https://github.com/feeshy/tasker-shares/raw/master/pushbullet/SMS转发.prf.xml)
-[^3]: import from [github](https://github.com/feeshy/tasker-shares/raw/master/pushbullet/云短信.prf.xml)
+[^1]: import from [github](未接来电.prf.xml)
+[^2]: import from [github](SMS转发.prf.xml)
+[^3]: import from [github](云短信.prf.xml)
 
 三个Pushbullet与Tasker整合的自动化配置
 

@@ -1,5 +1,5 @@
-[^alert]: import from [github](https://github.com/feeshy/tasker-shares/raw/master/wechat-alert.prf.xml)
-[^clear]: import from [github](https://github.com/feeshy/tasker-shares/raw/master/wechat-alert-clear.prf.xml)
+[^alert]: import from [github](wechat-alert.prf.xml)
+[^clear]: import from [github](wechat-alert-clear.prf.xml)
 
 # 微信的高级响铃控制
 

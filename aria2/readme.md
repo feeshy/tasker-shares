@@ -1,4 +1,4 @@
-[^1]: import from [github](https://github.com/feeshy/tasker-shares/raw/master/aria2/aria2.prf.xml) or [taskernet](https://taskernet.com/shares/?user=AS35m8kd%2B%2B8TCtuKD5vi%2BgxDuL5p9VAa8vrSP6viIGO6nBMQGv6ntB%2BfsCHAjiN7MZx1YA%3D%3D&id=Profile%3AAria2)
+[^1]: import from [github](aria2.prf.xml) or [taskernet](https://taskernet.com/shares/?user=AS35m8kd%2B%2B8TCtuKD5vi%2BgxDuL5p9VAa8vrSP6viIGO6nBMQGv6ntB%2BfsCHAjiN7MZx1YA%3D%3D&id=Profile%3AAria2)
 
 # Aria2 远程下载
 

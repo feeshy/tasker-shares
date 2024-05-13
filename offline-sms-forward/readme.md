@@ -1,4 +1,4 @@
-[^1]: import from [github](https://github.com/feeshy/tasker-shares/raw/master/offline-sms-forward/SMS转发.prf.xml)
+[^1]: import from [github](SMS转发.prf.xml)
 
 # 适合双号双机的离线短信转发
 

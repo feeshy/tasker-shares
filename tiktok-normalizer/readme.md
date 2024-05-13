@@ -1,4 +1,4 @@
-[^1]: import from [github](https://github.com/feeshy/tasker-shares/raw/master/tiktok-normalizer/tiktok-normalizer.prf.xml) or [taskernet](https://taskernet.com/shares/?user=AS35m8kd%2B%2B8TCtuKD5vi%2BgxDuL5p9VAa8vrSP6viIGO6nBMQGv6ntB%2BfsCHAjiN7MZx1YA%3D%3D&id=Profile%3A%E6%8A%96%E9%9F%B3%E5%BF%AB%E6%89%8B%E9%9F%B3%E9%87%8F%E6%A0%87%E5%87%86%E5%8C%96)
+[^1]: import from [github](tiktok-normalizer.prf.xml) or [taskernet](https://taskernet.com/shares/?user=AS35m8kd%2B%2B8TCtuKD5vi%2BgxDuL5p9VAa8vrSP6viIGO6nBMQGv6ntB%2BfsCHAjiN7MZx1YA%3D%3D&id=Profile%3A%E6%8A%96%E9%9F%B3%E5%BF%AB%E6%89%8B%E9%9F%B3%E9%87%8F%E6%A0%87%E5%87%86%E5%8C%96)
 
 # 抖音快手音量标准化
 

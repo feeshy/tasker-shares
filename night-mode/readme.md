@@ -1,5 +1,5 @@
-[^night]: import from [github](https://github.com/feeshy/tasker-shares/raw/master/night-mode/night-mode.prf.xml)
-[^day]: import from [github](https://github.com/feeshy/tasker-shares/raw/master/night-mode/day-mode.prf.xml)
+[^night]: import from [github](night-mode.prf.xml)
+[^day]: import from [github](day-mode.prf.xml)
 
 # Day/Night Mode
 
