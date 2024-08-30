@@ -6,7 +6,7 @@ author: feeshy # name of site's author
 title: feeshy的Tasker配置 # name of the site
 description: > # description of the site (multiple lines allowed)
   这些自动化操作使你的Android手机更加智能
-url: https://feeshy.github.io # the base hostname & protocol for your site
+url: https://feeshy.github.io/tasker-shares # the base hostname & protocol for your site
 baseurl: "" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
 webmaster_verifications: # verify ownership with several search services
   google: 13TdFZIpyncmP_FVn1REpOcCIgM5Tu9PwO6qTAcEFZo
