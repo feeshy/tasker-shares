@@ -6,7 +6,7 @@ author: feeshy # name of site's author
 title: feeshy的Tasker配置 # name of the site
 description: > # description of the site (multiple lines allowed)
   这些自动化操作使你的Android手机更加智能
-url: https://feeshy.github.io/tasker-shares # the base hostname & protocol for your site
+url: https://feeshy.top/tasker-shares # the base hostname & protocol for your site
 baseurl: "" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
 webmaster_verifications: # verify ownership with several search services
   google: 13TdFZIpyncmP_FVn1REpOcCIgM5Tu9PwO6qTAcEFZo
@@ -39,7 +39,7 @@ webmaster_verifications: # verify ownership with several search services
 
 # theme config
 
-remote_theme: feeshy/less-style-please
+remote_theme: feeshy/less-style-please@lite
 # show_logo: false # show the svg favicon in home page and archive page
 # show_description: false # show blog description in home page
 # sort_by_modified_date: false # sort posts by modified date rather than published date. Attention: You will have to set last_modified_date for every post
@@ -68,7 +68,7 @@ defaults:
 
 markdown: redcarpet
 redcarpet:
-  extensions: ["tables", "autolink", "strikethrough", "highlight", "footnotes", "with_toc_data"]
+  extensions: ["tables", "autolink", "strikethrough", "highlight", "footnotes"]
 toc:
   min_level: 2 # value: 1-6
   max_level: 3 # value: 1-6
@@ -83,7 +83,7 @@ sass:
 plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
-  # - jekyll-toc
+  - jekyll-toc
   - jekyll-target-blank
   - jekyll-sitemap
   # - jekyll-feed
