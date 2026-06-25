@@ -82,10 +82,9 @@ sass:
 
 plugins:
   - jekyll-remote-theme
-  - jekyll-seo-tag
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
   - jekyll-toc
   - jekyll-target-blank
+  - jekyll-seo-tag
   - jekyll-sitemap
-  # - jekyll-feed
-  # - jekyll-pwa-workbox
-  # - jekyll-redirect-from
